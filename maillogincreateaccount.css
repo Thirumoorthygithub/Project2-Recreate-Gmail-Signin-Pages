@@ -1,0 +1,31 @@
+body{margin: 0;
+    padding: 0;
+box-sizing: border-box;}
+    
+    .box{
+         width: 400px; height: 400px; position: absolute;
+         text-align: center;top: 25%;left: 35%;background-color: whitesmoke;
+}
+.head{ width: 400px; height: 100px;   }
+#img1{width: 100px;height: 100px; padding-top: 10px; }
+.name{width: 400px; height: 50px; padding-top: 15px; }
+.id1{width: 400px; height: 40px; padding-top: 10px; }
+.pass1{width: 400px; height: 40px; padding-top: 10px; }
+.pass2{width: 400px; height: 40px; padding-top: 10px; }
+
+
+.dob{width: 400px; height: 40px;  }
+.bt1{width: 400px; height: 40px;  }
+h1{text-align: center; font-size: 40px; color: orangered;}
+h2{text-align: center; font-size: 20px;}
+
+@media(max-width:700px){
+    .box{
+        width: 380px;
+        left: 3%;
+    }
+    #img{width: 70px; height: 70px;}
+    .bt1{
+        padding-top: 6px;
+    }
+}
